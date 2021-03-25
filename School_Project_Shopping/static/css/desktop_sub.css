@@ -1,0 +1,16 @@
+@media all and (min-width: 980px){
+    .con_footer ul li:first-child {
+        width:30%;
+        margin-right: 2%;
+        background: #154b98;
+    }
+
+    .con_footer ul li {
+        width:15.7%;
+        margin-left:1%;
+        float: left;
+        height: 350px;
+        background: #1d68d2;
+        color: #fff;
+    }
+}

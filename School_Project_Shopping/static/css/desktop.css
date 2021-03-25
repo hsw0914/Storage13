@@ -1,0 +1,46 @@
+@media all and (min-width: 980px){
+    .layout {
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    nav > .slide > div > img {
+        height: 100%;
+        width:auto;
+    }
+
+    figure {
+        width: 31.3%;
+    }
+
+    figure:last-child {
+        display: block;
+    }
+
+    figure .menu_title {
+        font-size: 1.5rem;
+    }
+
+    footer > .footer_con {
+        padding: 15px;
+    }
+
+    footer:first-child {
+        display: block;
+    }
+
+    footer > .footer_con >  a {
+        padding: 36px;
+        width:auto;
+        margin: 0;
+    }
+
+    footer > .footer_con > * {
+        border-right: 1px solid #ececec;
+    }
+
+    footer address {
+        width:auto;
+        margin: 0;
+    }
+}

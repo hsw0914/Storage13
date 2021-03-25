@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('/static/font/NanumGothic.ttf');
+}
+/* CSS Document */
+/*--- clear ---*/
+*{
+	margin:0px;
+	padding:0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, select, input, button, textarea{
+	font-family:NanumGothic;
+	font-size: 1.4rem;
+	color: #454545;
+}
+
+html {
+	font-size: 60%;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+address{
+	font-style:normal;
+}
+
+ul:after{
+	content: '';
+	display: block;
+	clear: both;
+	float: none;
+}
+
+li{
+	list-style: none;
+	color: #454545;
+}
+
+span,p{
+	font-family: NanumGothic;
+}
+
+img{
+	border: none;
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+.color_b {
+	color: blue;
+}
+
+.clear {
+	content: '';
+	clear: both;
+	display: block;
+}
